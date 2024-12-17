@@ -1,5 +1,5 @@
 
--- Project Initialization
+## Project Initialization
 Run commands in terminal
 
 `npm init -y

@@ -1,7 +1,6 @@
 // src/controllers/userController.ts
 import { FastifyReply, FastifyRequest } from "fastify";
-import { users } from "../data/users";
-import { User } from "../types/user";
+import { users } from "../data/users.ts";
 
 export const getAllUsers = async (
   request: FastifyRequest,

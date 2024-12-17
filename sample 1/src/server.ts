@@ -1,6 +1,6 @@
 // src/server.ts
 import fastify from "fastify";
-import { userRoutes } from "./src/routes/userRoutes";
+import { userRoutes } from "./routes/userRoutes.ts";
 
 const app = fastify({ logger: true });
 

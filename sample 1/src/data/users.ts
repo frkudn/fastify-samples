@@ -1,5 +1,6 @@
 // src/data/users.ts
-import { User } from "../types/user";
+
+import { User } from "../types/user.ts";
 
 export const users: User[] = [
   {

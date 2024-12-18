@@ -49,7 +49,7 @@ cd notes  # or sample, etc.
 4. Push to the branch
 5. Create a Pull Request
 
-## 📄 License [LICENSE](https://github.com/frkudn/fastify-samples/blob/main/LICENSE) 
+## 📄 [LICENSE](https://github.com/frkudn/fastify-samples/blob/main/LICENSE) 
 ---
 
 **Happy Coding!** 💻✨

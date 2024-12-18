@@ -52,7 +52,7 @@ cd notes  # or sample, etc.
 ## 📄 License
 
 MIT License
-[LICENSE](https://github.com/frkudn/fastify-samples/blob/main/LICENSE) 
+[###LICENSE](https://github.com/frkudn/fastify-samples/blob/main/LICENSE) 
 ---
 
 **Happy Coding!** 💻✨

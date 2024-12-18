@@ -1,29 +1,25 @@
-// src/server.ts
 import fastify from "fastify";
-import { userRoutes } from "./routes/userRoutes.ts";
+import { notesRoutes } from "./routes/notesRoutes.ts";
+import process from "node:process";
 
 const app = fastify({ logger: true });
+
+const PORT = process.env.PORT ? Number(process.env.PORT) : 3000;
 
 const startServer = async () => {
   try {
     // Register routes
-    await app.register(userRoutes);
-
-    // Root route
-    app.get("/", async (request, reply) => {
-      return { hello: "world" };
-    });
-
-    const PORT =  3000;
+    await app.register(notesRoutes);
 
     await app.listen({
-      port: Number(PORT),
+      port: PORT,
       host: "0.0.0.0",
     });
 
-    app.log.info(`Server is running on ${PORT}`);
+    app.log.info(`Server is running on port ${PORT}`);
   } catch (err) {
     app.log.error(err);
+    process.exit(1);
   }
 };
 

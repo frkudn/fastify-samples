@@ -7,9 +7,9 @@ This repository contains multiple sample projects demonstrating different Fastif
 ## 📋 Samples List
 
 ### 1. Deno TypeScript Server
-- **Location:** `/sample1`
+- **Location:** `/notes`
 - **Technologies:** Deno, TypeScript
-- **Description:** Basic Deno server with TypeScript and Fastify
+- **Description:** Basic Deno server for creating, reading, deleting, updating Notes Files with TypeScript and Fastify
 
 
 
@@ -30,7 +30,7 @@ cd fastify-samples
 
 2. Navigate to specific sample
 ```bash
-cd sample1  # or sample2, etc.
+cd notes  # or sample, etc.
 ```
 
 3. Follow individual sample's README for setup and run instructions
